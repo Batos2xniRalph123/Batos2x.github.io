@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  overflow: hidden; /* Prevents scrollbars if the button gets close to the edge */
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
+
+#yesBtn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#noBtn {
+  background-color: #f44336;
+  color: white;
+  transition: top 0.2s ease, left 0.2s ease; /* Smooth movement */
+}
